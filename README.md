@@ -3,6 +3,7 @@ A simple ComputerCraft quarry in LUA
 
 ## Startup
 Download all modules and run `quarry` to start the application. Then enter length, width and depth.
+You can use our downloader `pastebin get xxC3Q3CT updater` to fetch (or update) all modules for you.
 
 ## Features
 * Application will automatically restart after server loads (requires application to be called "quarry")
@@ -14,5 +15,4 @@ Download all modules and run `quarry` to start the application. Then enter lengt
 ## TODO
 * More debugging messages
 * Optimize new layer start (without going back to (0, y, 0))
-* Create program to download all required modules for you
 * General code cleanup
