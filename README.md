@@ -16,3 +16,4 @@ You can use our downloader `pastebin get xxC3Q3CT updater` to fetch (or update) 
 * More debugging messages
 * Optimize new layer start (without going back to (0, y, 0))
 * General code cleanup
+* When going home, make the turtle go to the correct y first to avoid it forcing its way through an unfinished layer because it currently does not look at block inventories when it does so.
